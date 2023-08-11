@@ -34,7 +34,7 @@ proxy-providers:
  bar:
    type: http
    path: ./profiles/proxies/bar.yaml
-   url: https://raw.githubusercontent.com/kognmengyu666/OpenWrt/main/bar.yaml?token=GHSAT0AAAAAACFXVK2G2CO7LOXHFG57BLHOZGWOGTQ
+   url: https://raw.githubusercontent.com/kognmengyu666/OpenWrt/main/bar.yaml
    health-check:
      enable: true
      url: http://www.gstatic.com/generate_204
