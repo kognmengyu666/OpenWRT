@@ -58,9 +58,9 @@ proxy-groups:
 - name: 🖥️局域网
   type: select
   proxies:
-   - ☁一元机场
-   - ☁ikuu
    - 📺自建节点
+   - ☁ikuu
+   - ☁一元机场
    - DIRECT
 
 - name: 🐟漏网之鱼
