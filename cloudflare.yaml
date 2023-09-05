@@ -86,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"ls.wangziyang1.top","type":"vless","server":"ls.wangziyang1.top","port":443,"uuid":"8154ce4d-ffbc-49ef-b5ac-6c46ac89f786","tls":true,"servername":"ls.wangziyang1.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ls.wangziyang1.top"}},"client-fingerprint":"randomized"}
+  - {"name":"🚀ls.cloudflare","type":"vless","server":"ls.wangziyang1.top","port":443,"uuid":"8154ce4d-ffbc-49ef-b5ac-6c46ac89f786","tls":true,"servername":"ls.wangziyang1.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ls.wangziyang1.top"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
