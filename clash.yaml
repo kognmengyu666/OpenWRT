@@ -42,7 +42,7 @@ proxy-providers:
 
   cloudflare:
    type: http
-   path: ./profiles/proxies/bar.yaml
+   path: ./profiles/proxies/cloudflare.yaml
    url: https://raw.githubusercontent.com/kognmengyu666/OpenWrt/main/cloudflare.yaml
    health-check:
      enable: true
