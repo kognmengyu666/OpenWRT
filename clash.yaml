@@ -40,16 +40,12 @@ proxy-providers:
      url: http://www.gstatic.com/generate_204
      interval: 600
 
-proxies:
-  - {"name":"🚀cloudflare","type":"vless","server":"ls.wangziyang1.top","port":443,"uuid":"8154ce4d-ffbc-49ef-b5ac-6c46ac89f786","tls":true,"servername":"ls.wangziyang1.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"ls.wangziyang1.top"}},"client-fingerprint":"randomized"}
-
 proxy-groups:
 - name: 🌏海外翻墙
   type: select
   proxies:
    - ☁一元机场
    - ☁ikuu
-   - 🚀cloudflare
    - 📺自建节点
 
 - name: 🚩国内上网
