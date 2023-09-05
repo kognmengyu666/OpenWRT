@@ -40,7 +40,7 @@ proxy-providers:
      url: http://www.gstatic.com/generate_204
      interval: 600
 
-  cloudflare:
+ cloudflare:
    type: http
    path: ./profiles/proxies/cloudflare.yaml
    url: https://raw.githubusercontent.com/kognmengyu666/OpenWrt/main/cloudflare.yaml
